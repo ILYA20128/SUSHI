@@ -1,0 +1,224 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000;
+	font-size: 14px;
+	font-family: Arial, serif;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.btn {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #020303;
+	background: #ffaf18;
+}
+
+.header {
+	padding: 30px 0px 30px 0px;
+}
+
+.logo {
+	display: inline-block;
+	width: 130px;
+	vertical-align: middle;
+}
+
+.logo__img {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.logo__text {
+	color: #fff;
+	display: inline-block;
+	width: 60px;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+.menu {
+	display: inline-block;
+	margin-left: 280px;
+}
+
+.menu__item {
+	color: #fdefd5;
+	margin-right: 58px;
+}
+
+.offer {
+	display: inline-block;
+	color: #fff;
+	max-width: 570px;
+	vertical-align: baseline;
+}
+
+.offer__title {
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 1.222;
+	max-width: 570px;
+	margin-bottom: 74px;
+}
+
+.offer__title span {
+	color: #ffaf18;
+}
+
+.offer__text {
+	display: inline-block;
+	margin-right: 99px;
+}
+
+.offer__text img {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.offer__btn {
+	background: #ffaf18;
+	padding: 22px 54px;
+	border-radius: 30px;
+	max-width: 225px;
+	margin-top: 92px;
+}
+
+.header-img {
+	display: inline-block;
+	width: 614px;
+	vertical-align: top;
+	margin-top: 45px;
+}
+
+.sushi {
+	padding-top: 133px;
+	padding-bottom: 80px;
+}
+
+.about {
+	padding: 120px 0px 120px 0px;
+}
+
+.about h2 {
+	font-size: 35px;
+	line-height: 1.571;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.rolls {
+	font-size: 0;
+	letter-spacing: -0.3em;
+	margin: 0 -12px;
+}
+
+.rolls__card {
+	display: inline-block;
+	width: 282px;
+	background: #fff;
+	text-align: center;
+	padding: 10px 20px 15px;
+	margin: 0px 12px 24px 12px;
+}
+
+.rolls__card-title {
+	font-size: 18px;
+	color: #181a1a;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.rolls__card-text {
+	margin-top: 15px;
+	font-size: 14px;
+	color: #181a1a;
+	line-height: 1.286;
+	width: 242px;
+	text-align: center;
+	margin: 17px auto 15px;
+	height: 53px;
+}
+
+.rolls_btn {
+	width: 242px;
+	padding: 17px 81px;
+	border-radius: 25px;
+}
+
+.eat {
+	padding: 109px 0px 0px 0px;
+	color: #fff;
+}
+
+.povar {
+	display: inline-block;
+	max-width: 386px;
+	vertical-align: top;
+	margin-top: 11px;
+}
+
+.povar__title {
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 1.286;
+}
+
+.povar__text {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 60px;
+}
+
+.povar-img {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.footer {
+	padding: 30px 0px 30px 0px;
+}
+
+.footer__text {
+	color: #2c2c2c;
+	font-size: 12px;
+	line-height: 1.2;
+	display: inline-block;
+	margin-left: 390px;
+}
